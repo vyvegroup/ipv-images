@@ -1,5 +1,12 @@
 <div align="center">
 
+<table>
+<tr>
+<td width="80" align="center">
+<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1a73e8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+</td>
+<td>
+
 # ibisPaint `.ipv` &mdash; Hướng dẫn kỹ thuật &amp; trích xuất PNG
 
 [![Format](https://img.shields.io/badge/Format-ibisPaint_.ipv-blue?style=flat-square)](https://github.com/vyvegroup/ipv-images)
@@ -10,12 +17,39 @@
 **Tài liệu kỹ thuật toàn diện về định dạng file `.ipv` của ibisPaint X  
 và phương pháp trích xuất artwork PNG nguyên bản.**
 
+</td>
+</tr>
+</table>
+
 [bắt-đầu](#-bắt-đầu-nhanh) ·
 [cấu-trúc](#-cấu-trúc-kỹ-thuật) ·
 [hướng-dẫn](#-hướng-dẫn-trích-xuất-png) ·
 [công-cụ](#-công-cụ--tài-liệu-tham-khảo)
 
 </div>
+
+---
+
+> [!IMPORTANT]
+>
+> <table>
+> <tr>
+> <td width="40" valign="top">
+>
+> <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d93025" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+>
+> </td>
+> <td>
+>
+> **Toàn bộ dự án này thuộc về <strong>MT Studio</strong>.**
+>
+> Dự án được thực hiện bởi các nhánh nhỏ thuộc hệ sinh thái MT Studio, bao gồm **VyveGroups.AI**, **VyveLabs** và **MTLabs**.
+>
+> Toàn bộ dữ liệu và tài liệu trên repository này được phát hành dưới dạng **open source**. Tuy nhiên, chu kỳ open source có độ trễ từ **3 tháng đến 2 năm** so với phiên bản nội bộ. Do đó, các kỹ thuật và phương pháp được trình bày trong tài liệu này **không nhất thiết phản ánh kỹ thuật thật sự** mà MT Studio đang sử dụng trên phần mềm chính thức hoặc thương mại. Đây là phiên bản đã được tinh giản và public hóa, có thể thiếu các tối ưu hoặc module nội bộ.
+>
+> </td>
+> </tr>
+> </table>
 
 ---
 
@@ -416,11 +450,24 @@ Vì phân tích metadata RPNG chưa đầy đủ, việc compositing chính xác
 
 <div align="center">
 
-**Tài liệu được xây dựng dựa trên việc phân tích độc lập.  
-Không liên hệ với ibisPaint Inc.**
+<table>
+<tr>
+<td align="center">
+
+[![](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](LICENSE)
+
+</td>
+<td align="center">
+
+**MT Studio** &middot; **VyveLabs** &middot; **MTLabs**
+
+</td>
+</tr>
+</table>
 
 <br>
 
-[![](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](LICENSE)
+Tài liệu được xây dựng dựa trên việc phân tích độc lập.  
+Không liên hệ với ibisPaint Inc.
 
 </div>
